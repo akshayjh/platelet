@@ -4,6 +4,13 @@ margin: 0px;
 padding: 0px;
 text-decoration: none!important;
 border-radius: 4px;
+border-color: #ddd;
+
+-o-transition: .4s;
+-ms-transition: .4s;
+-moz-transition: .4s;
+-webkit-transition: .4s;
+transition: .4s;
 }
 
 /* Elements */
@@ -27,7 +34,6 @@ hr {
 height: 3px;
 background: #555;
 border-top: 1px solid #222;
-border-radius: 25%;
 }
 
 table {
@@ -121,6 +127,20 @@ word-break: break-all;
 word-wrap: break-word;
 }
 
+/* Buttons */
+button {
+margin: 2px;
+float: left;
+padding: 10px 20px;
+border: none;
+background: #777;
+color: #fff;
+}
+button:hover {
+-webkit-box-shadow: 0px 2px 2px 0px #222;
+box-shadow: 0px 2px 2px 0px #222;
+}
+
 /* Links */
 a, a:visited {
 font-weight: bold;
@@ -149,7 +169,7 @@ border: 0px;
 .wrapper {
 width: 90%;
 text-align: left;
-background: #ddd;
+background: #fcfcfc;
 border-radius: 10px;
 padding: 20px;
 border: 1px solid #333;
@@ -328,10 +348,19 @@ margin:0 15px 10px 0}
 margin:0 10px;float:left;width:140px}.boxa{position:relative;float:left;width:640px;
 height:50px;margin:0 15px 10px 0x;transition width 1s}.boxa div{margin:0 10px;float:left;
 border-radius:50%;height:140px;width:140px;box-shadow:3px 3px 6px #000 inset}
-.boxa div:hover{height:120px;width:120px}
-.boxa a .stem1,.boxa a .stem2,.boxa a .stem3,.boxa a .stem4{background-position:center;
-background-image:url('/img/g.png')}.boxa a .stem1{background-position:0 0}.boxa a .stem2{background-position:-150px 0}.boxa a .stem3{background-position:-300px 0}.boxa a .stem4{background-position:-450px 0}.boxa a .stem1:hover{background-position:-10px -10px;border:10px solid #ffb600}
-.boxa a .stem2:hover{background-position:-160px -10px;border:10px solid #906090}.boxa a .stem3:hover{background-position:-310px -10px;border:10px solid #079a46}.boxa a .stem4:hover{background-position:-460px -10px;border:10px solid #2f64c1}
+.boxa div:hover { height: 120px; width: 120px; }
+.boxa a .stem1,.boxa a .stem2,.boxa a .stem3,.boxa a .stem4 {background-position:center;
+background-image:url('/img/g.png');
+transition: .0s;
+}
+.boxa a .stem1{background-position:0 0}
+.boxa a .stem2{background-position:-150px 0}
+.boxa a .stem3{background-position:-300px 0}
+.boxa a .stem4{background-position:-450px 0}
+.boxa a .stem1:hover{background-position:-10px -10px;border:10px solid #ffb600}
+.boxa a .stem2:hover{background-position:-160px -10px;border:10px solid #906090}
+.boxa a .stem3:hover{background-position:-310px -10px;border:10px solid #079a46}
+.boxa a .stem4:hover{background-position:-460px -10px;border:10px solid #2f64c1}
 .box0{height:185px;width:640px}
 .box1{position:relative;float:left;width:640px;height:50px;margin:0 15px 10px 0}
 .box2{position:relative;float:left;width:900px;height:50px;margin:75px 15px 0 0}
@@ -379,7 +408,6 @@ left: 94px;
 
 .infobox {
 overflow: hidden;
-border-radius: 10px;
 text-align: left;
 padding: 20px;
 color: #111;
@@ -394,14 +422,13 @@ color: #eee;
 background: #444;
 padding: 5px 20px;
 margin: -20px -20px 0px;
-border-radius: 4px 4px 0px 0px;
+border-radius: 0px;
 }
 .tri {
 width: calc((100% /3) - 34px);
 height: 300px;
 overflow: hidden;
 float: left;
-border-radius: 10px;
 background: #fff;
 margin: 10px 20px 10px 0px;
 padding: 20px 10px;
@@ -432,10 +459,10 @@ box-shadow: 1px 1px 1px 0px #222;
 
 /* Post */
 .post-outer {
-background:#fff;text-align:left;padding:10px;
+background:#fff;
+text-align:left;
+padding:10px;
 margin-top:20px;
--webkit-box-shadow: 0px 2px 2px 0px #000;
-box-shadow: 0px 2px 2px 0px #000;
 }
 .post-title{color:#fff;background:#474747;font-size:26px;font-family:Arial, Helvetica,sans-serif;padding:10px}
 .post-header-line{font-size:9px;text-transform:uppercase;margin:6px 0px}
@@ -450,11 +477,6 @@ box-shadow: 0px 2px 2px 0px #000;
 margin: 10px;
 -webkit-box-shadow: 0px 7px 7px 0px;
 box-shadow: 0px 7px 7px 0px;
--o-transition:.7s;
--ms-transition:.7s;
--moz-transition:.7s;
--webkit-transition:.7s;
-transition:.7s;
 }
 .hover:hover {
 -webkit-box-shadow: 0px 12px 12px 0px;
@@ -472,20 +494,27 @@ width: 21px;
 height: 21px;
 margin: 0px 8px;
 border-radius: 50%;
-transition: background-color 350ms, box-shadow 700ms;
 background-color: #666;
 }
 .red:hover {
 background-color: rgb(226,0,0);
 box-shadow: inset 0px 1px 0px 0px rgba(250,250,250,0.5), 0px 0px 3px 2px rgba(226,0,0,0.5);
 }
+.orange:hover {
+background-color: rgb(255,165,0);
+box-shadow: inset 0px 1px 0px 0px rgba(250,250,250,0.5), 0px 0px 3px 2px rgba(255,165,0,0.5);
+}
 .green:hover {
 background-color: rgb(135,187,83);
 box-shadow: inset 0px 1px 0px 0px rgba(250,250,250,0.5), 0px 0px 3px 2px rgba(135,187,83,0.5);
 }
+.blue:hover {
+background-color: rgb(106,90,205);
+box-shadow: inset 0px 1px 0px 0px rgba(250,250,250,0.5), 0px 0px 3px 2px rgba(106,90,205,0.5);
+}
 .violet:hover {
-background-color: rgb(143,0,225);
-box-shadow: inset 0px 1px 0px 0px rgba(250,250,250,0.5), 0px 0px 3px 2px rgba(143,0,225,0.5);
+background-color: rgb(175,0,225);
+box-shadow: inset 0px 1px 0px 0px rgba(250,250,250,0.5), 0px 0px 3px 2px rgba(175,0,225,0.5);
 }
 
 /* Social */
@@ -507,18 +536,11 @@ float: left;
 -moz-user-select: moz-none;
 -ms-user-select: none;
 user-select: none;
-
--o-transition:.7s;
--ms-transition:.7s;
--moz-transition:.7s;
--webkit-transition:.7s;
-transition:.7s;
-color:#222;
 }
 
 .sbtn:hover, .mbtn:hover, .lbtn:hover {
--webkit-box-shadow: 0px 2px 2px 0px;
-box-shadow: 0px 2px 2px 0px;
+-webkit-box-shadow: 0px 2px 2px 0px #222;
+box-shadow: 0px 2px 2px 0px #222;
 }
 
 .sbtn { width: 26px; }
@@ -560,6 +582,8 @@ font-size: 25px;
 line-height: 2;
 }
 
-footer{font-weight:bold;width:850px;background:#ddd;border-radius: 10px;margin:0 auto;padding:20px;
-border-width:0 1px 1px 1px;border-style:solid;border-color:#333;box-shadow:-2px 6px 8px #222;
+footer{font-weight:bold;width:850px;background:#fcfcfc;
+border-radius: 10px;margin:0 auto;padding:20px;
+border-width:0 1px 1px 1px;border-style:solid;
+border-color:#333;box-shadow:-2px 6px 8px #222;
 position:relative;top:-42px;z-index:-60}
