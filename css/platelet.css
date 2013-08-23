@@ -161,13 +161,13 @@ margin: 2px;
 /* Main */
 .wrapper-outer {
 margin: 30px auto;
-/*width: 1030px;*/
+width: 1030px;
 background: transparent;
 padding: 0px;
 border: 0px;
 }
 .wrapper {
-width: 90%;
+width: 100%;
 text-align: left;
 background: #fcfcfc;
 border-radius: 10px;
@@ -361,7 +361,7 @@ transition: .0s;
 .boxa a .stem2:hover{background-position:-160px -10px;border:10px solid #906090}
 .boxa a .stem3:hover{background-position:-310px -10px;border:10px solid #079a46}
 .boxa a .stem4:hover{background-position:-460px -10px;border:10px solid #2f64c1}
-.box0{height:185px;width:640px}
+.box0{height:230px;width:640px}
 .box1{position:relative;float:left;width:640px;height:50px;margin:0 15px 10px 0}
 .box2{position:relative;float:left;width:900px;height:50px;margin:75px 15px 0 0}
 .box3{position:relative;float:left;width:300px;height:38px;margin:0 0 15px 0}
