@@ -224,28 +224,28 @@ float: right;
 right: -90px;
 }
 .newer {
-color:#444;
-font-size:40px;
-height:90px;
-position:relative;
-top:125px;
-left:51px;
-width:55px;
-margin:1px;
-padding:3px;
+color: #444;
+font-size: 40px;
+height: 90px;
+position: relative;
+top: 380px;
+right: 4px;
+width: 55px;
+margin: 1px;
+padding: 3px;
 background: #fcfcfc;
-border-radius:0 50px 50px 0;
-border-width:0 1px 1px 0;
-border-color:#333;
-border-style:solid;
-box-shadow:7px 1px 9px #222;
+border-radius: 0 50px 50px 0;
+border-width: 0 1px 1px 0;
+border-color: #333;
+border-style: solid;
+box-shadow: 7px 1px 9px #222;
 }
 .older{
 color:#444;
 font-size:40px;
 height:90px;
 position:relative;
-top:125px;
+top:380px;
 right:16px;
 width:55px;
 margin:1px;
