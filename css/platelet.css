@@ -13,6 +13,11 @@ border-color: #ddd;
 transition: .4s;
 }
 
+/* Salvius-specific */
+.boxa a .stem1,.boxa a .stem2,.boxa a .stem3,.boxa a .stem4{background-position:center;
+background-image:url('http://openrobot.github.io/img/g.png')}.boxa a .stem1{background-position:0 0}.boxa a .stem2{background-position:-150px 0}.boxa a .stem3{background-position:-300px 0}.boxa a .stem4{background-position:-450px 0}.boxa a .stem1:hover{background-position:-10px -10px;border:10px solid #ffb600}
+.boxa a .stem2:hover{background-position:-160px -10px;border:10px solid #906090}.boxa a .stem3:hover{background-position:-310px -10px;border:10px solid #079a46}.boxa a .stem4:hover{background-position:-460px -10px;border:10px solid #2f64c1}
+
 /* Elements */
 html, body { height: 100%; }
 
@@ -208,18 +213,19 @@ border-bottom: 3px solid #888;
 .header {
 margin: 10px 0px;
 }
-.pager-outer-left,.pager-outer-right{
+
+.pager-left,.pager-right{
 width: 46px;
 position: relative;
 top: 80px;
 height: 0px;
 z-index: 20
 }
-.pager-outer-left {
+.pager-left {
 float: left;
 left: -46px;
 }
-.pager-outer-right {
+.pager-right {
 float: right;
 right: -90px;
 }
