@@ -385,46 +385,6 @@ transition: .0s;
 .box2{position:relative;float:left;width:900px;height:50px;margin:75px 15px 0 0}
 .box3{position:relative;float:left;width:300px;height:38px;margin:0 0 15px 0}
 
-/* Banner */
-.donate {
-text-align:center;
-float:right;
-color:#eee;
-width:220px;
-height:250px;
-background:#333;
-position:relative;
-box-shadow:-5px 0 6px #222;
-margin:-225px 30px -30px 0px;
-font-family:"Times New Roman",Georgia,Serif;
-}
-.donate:after{content:'';position:absolute;
-bottom:-25px;left:0;width:0;height:0;
-border-left:110px solid transparent;
-border-right:110px solid transparent;
-border-top:25px solid #333}
-.donate hr {
-background: transparent;
-border: 0px;
-border-radius: 0px;
-padding: 0px;
-height: 10px;
-border-top: medium double #eee;
-color: #eee;
-text-align: center;
-}
-.donate h1, .donate h2 {
-margin: 30px 0px;
-}
-.donate i {
-font-size: 39px;
-background: #333;
-color: #eee;
-position: absolute;
-top: 75px;
-left: 94px;
-}
-
 .infobox {
 overflow: hidden;
 text-align: left;
