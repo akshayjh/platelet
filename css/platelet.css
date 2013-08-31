@@ -357,29 +357,59 @@ padding: 5px;
 margin-left: 5px
 }
 
-.boxb {
-position:relative;
-text-align: center;
-float:left;
-width:640px;
-margin:0 15px 10px 0}
-.boxb div{color:#444;
-margin:0 10px;float:left;width:140px}.boxa{position:relative;float:left;width:640px;
-height:50px;margin:0 15px 10px 0x;transition width 1s}.boxa div{margin:0 10px;float:left;
-border-radius:50%;height:140px;width:140px;box-shadow:3px 3px 6px #000 inset}
-.boxa div:hover { height: 120px; width: 120px; }
-.boxa a .stem1,.boxa a .stem2,.boxa a .stem3,.boxa a .stem4 {background-position:center;
-background-image:url('/img/g.png');
+.stem {
+color: #444;
+background-image: url("http://openrobot.github.io/img/h.png");
 transition: .0s;
+margin: 0px;
+border-radius:50%;
+height:100px;
+width:100px;
+box-shadow:3px 3px 6px #000 inset;
 }
-.boxa a .stem1{background-position:0 0}
-.boxa a .stem2{background-position:-150px 0}
-.boxa a .stem3{background-position:-300px 0}
-.boxa a .stem4{background-position:-450px 0}
-.boxa a .stem1:hover{background-position:-10px -10px;border:10px solid #ffb600}
-.boxa a .stem2:hover{background-position:-160px -10px;border:10px solid #906090}
-.boxa a .stem3:hover{background-position:-310px -10px;border:10px solid #079a46}
-.boxa a .stem4:hover{background-position:-460px -10px;border:10px solid #2f64c1}
+.stem:hover {
+height: 80px;
+width: 80px; 
+}
+
+.stem-link {
+display: block;
+width: 100px;
+height: 100px;
+float: left;
+text-align: center;
+margin: 10px;
+}
+
+.stem1{background-position:0 0}
+.stem2{background-position:-150px 0}
+.stem3{background-position:-300px 0}
+.stem4{background-position:-450px 0}
+.stem5{background-color:#556;
+background-image: linear-gradient(30deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445),
+linear-gradient(150deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445),
+linear-gradient(30deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445),
+linear-gradient(150deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445),
+linear-gradient(60deg, #99a 25%, transparent 25.5%, transparent 75%, #99a 75%, #99a), 
+linear-gradient(60deg, #99a 25%, transparent 25.5%, transparent 75%, #99a 75%, #99a);
+background-size:80px 140px;
+background-position: 0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px;}
+.stem1:hover{background-position:-10px -10px;border:10px solid #ffb600}
+.stem2:hover{background-position:-160px -10px;border:10px solid #906090}
+.stem3:hover{background-position:-310px -10px;border:10px solid #079a46}
+.stem4:hover{background-position:-460px -10px;border:10px solid #2f64c1}
+.stem5:hover{border:10px solid #2f64c1}
+
+.nav a {
+    text-align: center;
+	font-weight: bold;
+}
+
+
+
+
+
+
 .box0{height:230px;width:640px}
 .box1{position:relative;float:left;width:640px;height:50px;margin:0 15px 10px 0}
 .box2{position:relative;float:left;width:900px;height:50px;margin:75px 15px 0 0}
