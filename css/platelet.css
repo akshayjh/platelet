@@ -194,6 +194,7 @@ text-shadow: 0px 0px 2px rgba(255, 255, 255, 0.5);
 font: 43px Helvetica,Arial,Sans-Serif;
 }
 .description {
+clear: both;
 text-align: center;
 font-size: 28px;
 font-weight: 600;
@@ -378,7 +379,7 @@ width: 100px;
 height: 100px;
 float: left;
 text-align: center;
-margin: 10px;
+margin: 0px 20px 30px 0px;
 }
 
 .stem1{background-position:0 0}
