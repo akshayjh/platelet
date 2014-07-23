@@ -1,3 +1,4 @@
+/* Close and colapse buttons */
 $(".close").bind("click", function(e) { 
     e.preventDefault();
     $(this).parent().animate({ height: "toggle", opacity: "toggle" }, "slow");

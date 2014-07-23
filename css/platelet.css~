@@ -340,9 +340,9 @@ border-radius: 0px;
 }
 
 .tri .box {
-width: calc((100% /3) - 23px);
+width: calc((100% /3) - 45px);
 margin: 15px;
-padding: 0px;
+padding: 20px 10px;
 overflow: hidden;
 display: inline-block;
 background: #fff;
